@@ -27,14 +27,13 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ## Table of Contents: 
-- [Name](#name)
-- [License](#license)
-- [Description](#description)
-- [Installation Instructions](#installationInstructions)
-- [Test](#test)
-- [GitHub](#gitHub)
-- [Email](#email)
-- [Contributors](#contributors)
+  - [License](#license)
+  - [Description](#description)
+  - [Installation Instructions](#installation-instructions)
+  - [Test](#test)
+  - [GitHub](#github)
+  - [Email](#email)
+  - [Contributors](#contributors)
 ## License:
 [![License:${renderLicenseSection(data.license)}](${renderLicenseBadge(data.license)})]${renderLicenseLink(data.license)})
 ## Description:
@@ -43,11 +42,11 @@ ${data.description}
 ${data.installation}
 ## Test: 
 To test type ${data.test} into the terminal
-## My Github Username: 
+## Github: 
 Check out more project on my Github at https://github.com/${data.gitHub}
-## My Email Address:
+## Email:
 If you have any question please feel free to email me at ${data.email}
-## Other Contributors:
+## Contributors:
 ${data.contributors}
 
 
