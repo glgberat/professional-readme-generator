@@ -13,12 +13,15 @@ node index
 
 Generated sample README file is located in ./Develop folder.
 
+
 ## Screenshots
-![README-Generator](https://glgberat.github.io/weather-dashboard/screenshot1.png)
-![README-Generator](https://glgberat.github.io/weather-dashboard/screenshot2.png)
-![README-Generatord](https://glgberat.github.io/weather-dashboard/screenshot3.png)
+![README-Generator](https://glgberat.github.io/professional-readme-generator/screenshot1.png)
+![README-Generator](https://glgberat.github.io/professional-readme-generator/screenshot2.png)
+![README-Generatord](https://glgberat.github.io/professional-readme-generator/screenshot3.png)
 
+## Video Walktrough
 
+https://drive.google.com/file/d/1qFyI6CUetaA5KT_UnMlEJZrqg-qtASNO/view
 
 ## Contribution
 Made by [Mehmet B Huyuk]
